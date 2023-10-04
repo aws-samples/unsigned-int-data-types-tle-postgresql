@@ -16,8 +16,9 @@ These custom PostgreSQL data types are written as PostgreSQL Trusted Language Ex
 ### Installation of custom data types in this repository
 
   Copy the contents of the desired extension's SQL file and execute against the desired database OR run the sql file directly against the desired database using psql: 
-    ```
-  psql -h <host> -d <mydatabase> -f /home/user/git/unsigned-int-data-types-tle-postgresql/uint2.sql
+
+```
+psql -h <host> -d <mydatabase> -f /home/user/git/unsigned-int-data-types-tle-postgresql/uint2.sql
 ```
 
 If the instalation is sucessful, you will see the following output: 
